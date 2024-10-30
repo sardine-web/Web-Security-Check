@@ -1,7 +1,7 @@
-Web Security Check
+<h1> Web Security Check </h1>
 
-A comprehensive Bash script for automating web security assessments. Web Security Check is designed to help pentesters, security researchers, and bug bounty hunters quickly identify common vulnerabilities in web applications by performing checks like 403 bypasses, header injections, basic LFI testing, and other quick tricks.
-Features
+<h2> A comprehensive Bash script for automating web security assessments. Web Security Check is designed to help pentesters, security researchers, and bug bounty hunters quickly identify common vulnerabilities in web applications by performing checks like 403 bypasses, header injections, basic LFI testing, and other quick tricks.
+Features </h2>
 
     Dynamic Target URL: Prompts the user to input a target URL.
     Common Checks:
@@ -22,17 +22,17 @@ Features
     403 Bypass Techniques:
         Uses various path modifications and encoding to bypass 403 Forbidden restrictions.
 
-Installation
+<h2> Installation</h2>
 
 Clone the repository and make the script executable:
 
-bash
+<h2>bash</h2>
 
 git clone https://github.com/yourusername/web-security-check.git
 cd web-security-check
 chmod +x web_security_check.sh
 
-Usage
+<h2>Usage</h2>
 
 Run the script and enter the target URL when prompted:
 
@@ -40,7 +40,7 @@ bash
 
 ./web_security_check.sh
 
-Example Output
+<h2>Example Output</h2>
 
 The tool provides HTTP status codes, responses, and specific findings for each check. Here’s a sample output:
 
@@ -59,7 +59,7 @@ Checking headers...
 Normal request: 403
 With semicolon: 200
 
-Tests Performed
+<h2>Tests Performed</h2>
 
     robots.txt Check: Scans for the robots.txt file to discover hidden paths.
     Security Headers: Checks for secure headers to protect against attacks like XSS and clickjacking.
@@ -69,7 +69,7 @@ Tests Performed
         Path modifications (.., ;, ~)
         Double slashes (//) and extra characters
 
-Advanced Configuration
+<h2>Advanced Configuration</h2>
 
 You can customize specific arrays and functions in the script to add:
 
@@ -77,7 +77,7 @@ You can customize specific arrays and functions in the script to add:
     Custom headers for injection
     New 403 Bypass techniques
 
-Disclaimer
+<h2>Disclaimer</h2>
 
 This tool is intended for educational purposes and authorized testing only. Unauthorized use is prohibited and may be illegal. Use responsibly and respect target terms of service.
 Contributing
