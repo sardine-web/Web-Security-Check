@@ -1,7 +1,7 @@
 <h1> Web Security Check </h1>
 
-<h3> A comprehensive Bash script for automating web security assessments. Web Security Check is designed to help pentesters, security researchers, and bug bounty hunters quickly identify common vulnerabilities in web applications by performing checks like 403 bypasses, header injections, basic LFI testing, and other quick tricks.
-Features </h3>
+ A comprehensive Bash script for automating web security assessments. Web Security Check is designed to help pentesters, security researchers, and bug bounty hunters quickly identify common vulnerabilities in web applications by performing checks like 403 bypasses, header injections, basic LFI testing, and other quick tricks.
+Features 
 
     Dynamic Target URL: Prompts the user to input a target URL.
     Common Checks:
